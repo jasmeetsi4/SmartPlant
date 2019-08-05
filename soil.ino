@@ -10,7 +10,7 @@ void loop() {
   int val;
   val=analogRead(0);
   Serial.println(val);
-  if(val<300)
+  if(val<50)
   {
     digitalWrite(LED,HIGH);
   }
